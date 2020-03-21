@@ -145,8 +145,7 @@ maxPlayerLenght = CrearJugadores()
 
 while True:
 
-    input("Puntaje que sacó: " + str(jugadores[jugadorActual].get_nombre()))
-    ingreso = input()
+    ingreso = input("Puntaje que sacó: " + str(jugadores[jugadorActual].get_nombre()) + " ")
 
     if str(ingreso) == "":
         print("El jugador no ha sumado puntos")
